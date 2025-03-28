@@ -1,0 +1,15 @@
+@utility z-background {
+  z-index: -9999;
+}
+
+@utility full-parent {
+  @apply absolute top-0 right-0 bottom-0 left-0;
+}
+
+@utility gap-content {
+  @apply gap-5 laptop:gap-10;
+}
+
+@utility backface-hidden {
+  backface-visibility: hidden;
+}
